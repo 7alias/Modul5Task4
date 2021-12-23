@@ -9,7 +9,7 @@ public class Main {
         System.out.println("введите число");
 
         int myInt = scanner.nextInt();
-        //int myInt = 12345678;
+
 
         DecimalFormat formatter = (DecimalFormat) NumberFormat.getInstance();
         DecimalFormatSymbols symbols = formatter.getDecimalFormatSymbols();
