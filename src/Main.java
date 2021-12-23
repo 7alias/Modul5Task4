@@ -7,10 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("введите число");
-
         int myInt = scanner.nextInt();
-
-
         DecimalFormat formatter = (DecimalFormat) NumberFormat.getInstance();
         DecimalFormatSymbols symbols = formatter.getDecimalFormatSymbols();
         symbols.setGroupingSeparator(','); //разделитель тысяч: ,
