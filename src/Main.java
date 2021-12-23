@@ -13,6 +13,7 @@ public class Main {
         symbols.setGroupingSeparator(','); //разделитель тысяч: ,
         formatter.setDecimalFormatSymbols(symbols);
         System.out.println(formatter.format(myInt));
+
     }
 }
 
